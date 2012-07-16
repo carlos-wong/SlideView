@@ -1,4 +1,0 @@
-SlideView
-=========
-
-android SlideView
