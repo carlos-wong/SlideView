@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- <include
+            android:id="@+id/item_header"
+            layout="@layout/item_header" />
+ -->
+        <RelativeLayout
+            android:id="@+id/linearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/slideMenu"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/top_bg" />
+
+            <!-- <RelativeLayout
+                android:id="@+id/linearLayout03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivPreviousButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/previous_button"
+                    android:visibility="invisible" />
+            </RelativeLayout> -->
+
+            <!-- <RelativeLayout
+                android:id="@+id/linearLayout04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ivNextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/next_button"
+                    android:visibility="invisible" />
+
+                
+		        <ImageView
+		            android:id="@+id/ivMenuBackgroundCopy"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_alignParentTop="true"
+		            android:paddingTop="2dp"
+		            android:src="@drawable/menu_bg" />
+               
+
+            </RelativeLayout> -->
+
+            <ImageView
+                android:id="@+id/ivMenuBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/ivPreviousButton"
+                android:paddingTop="2dp"
+                android:src="@drawable/menu_bg"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

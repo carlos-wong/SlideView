@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_navigate"
+    android:layout_width="fill_parent"
+    android:layout_height="66px"
+    android:background="@drawable/top_back_image"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/NavigateBack"
+            android:layout_width="71px"
+            android:layout_height="45px"
+            android:background="@drawable/btn_back_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="4px"
+            android:text="返回"
+            android:textColor="#ffffffff"
+            android:textSize="13.5sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/NavigateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/NavigateHome"
+            android:layout_width="71px"
+            android:layout_height="45px"
+            android:background="@drawable/btn_home_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="#ffffffff"
+            android:textSize="13.5sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHeaderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/NavigateTitle"
+        android:layout_alignBottom="@+id/NavigateTitle"
+        android:layout_centerHorizontal="true"
+        android:text="最新新闻"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

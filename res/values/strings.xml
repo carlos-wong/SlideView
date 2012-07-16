@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MySlideMenuActivity!</string>
+    <string name="app_name">Android实现导航菜单左右滑动效果</string>
+    <string name="item_mobile">随着Windows Phone逐步渗入中国智能手机市场，Windows Phone作为移动操作平台的新锐，自然不会失宠。Windows Phone 7在中国没有流行的原因，很大程度上是因为在中国并没有上市。现在，诺基亚和微软宣布达成紧密战略合作之后，沉寂许久的Windows Phone操作系统再次走入了人们关注的视野，成了移动应用开发者继iOS和Android之外的另一选择。</string>
+    <string name="item_web">HTML5开发正在如火如荼的进行中，在HTML5中使用自定义属性正逐渐受到开发者们的青睐；此外，它还在Web开发语义中发挥了重要作用。本文我们将探讨通过实践案例来创建和访问HTML5自定义数据属性，包括JavaScript函数。</string>
+    <string name="item_cloud">CloudFlare是Prince的第三家创业公司，此前两家公司专注于反垃圾邮件。他可能是拥有众多学位的创始人之一，包括MBA、法律以及计算机技术。CloudFlare是TechCrunch Disrupt在2010年评出的最有价值的公司第二名，仅次于Qwiki。</string>
+    <string name="item_database">MySQL/Galera是MySQL的一个分支版本，可用于创建同步的多主站MySQL（InnoDB）集群。MySQL/Galera具有真正的多主站功能，所以相同的表可以在不同的节点中同时进行修改。它是高度可用的，已提交的事务从不会丢失，且它的触发、存储过程和用户自定义函数都是透明的。</string>
+    <string name="item_embed">基于Cortex-M0的物联网教学平台及配套案例资料和技术支持获得业内合作企业一致好评之后，为了进一步推进物联网应用与教学，研发中心在恩智浦（NXP）半导体的支持下经过几个月的潜心研究和专注努力，研发中心自主研发的基于NXP RC522 的FS_RFID开发套件也于近期宣布研制成功，并已投入批量生产，这无疑为业内合作企业、合作院校带来了非常好的消息。</string>
+    <string name="item_server">开放API可能让处于追赶地位的彭博社迎头赶上，其最大的竞争对手汤姆逊-路透正陷入与欧洲反垄断办公室的对峙。至少，众多的开发者可以欢欣鼓舞下了。彭博社借助开放API赶上老对手。</string>
+    <string name="item_dotnet">VMware的开源PaaS项目Cloud Foundry近日加入了.NET框架的支持，这使得该公司产品在与微软Azure的竞争上又迈出了有力的一步。CloudFoundry.com是一个托管的PaaS（平台即服务）解决方案，开发人员可以在该平台上迅速部署及运行Web应用程序。Cloud Foundry能够帮助开发者使用Java或者其他的基于JVM的架构构建应用，它支持的应用程序框架包含Spring等。现在又增加了对.NET的支持。</string>
+    <string name="item_java">4月18日，甲骨文公司（Oracle）起诉Google侵犯知识产权一案在旧金山法院开庭。已经持续了18个月的官司终于走上了正式审理程序，最重要的是，审判有可能决定Android系统和众多开发者的命运。</string>
+    <string name="item_safe">Linus Torvalds一直过着标准的极客生活。他热爱并从事开源事业，追求富有激情的运动（如潜水）。他始终认为自己做出了正确的选择，比起创办一家公司，他更钟情于技术研究。在过去的二十年里，Linux撼动了微软帝国，并为Google、Facebook和Amazon奠定了基石。</string>
+    <string name="item_domain">北京时间4月20日消息，据Techcrunch报道，云笔记及存储应用Evernote正在第五轮融资，此次融资金额将会在5000万到1亿美元之间，公司的估值也将达到10亿美元。虽然之前Business Insider曾报道融资已经完成，但有消息透露目前融资活动未结束，投资者们对此次融资的许多最终细节还在讨论。</string>
+    <string name="item_research">北京时间4月19日消息，Daemonic虽然是一个新兴的工作室，但也就是今天，Daemonic在硅谷发布了一款叫Dabble基于地理位置的照片记录应用。Dabble这款应用能够让用户记录和分享他们去过的地方，同时这些照片还可以做成虚拟的明信片钉在地图上，记录下这些美好。据悉这个应用背后的想法是，用户可以利用自己的智能手机记录带有地理位置的照片填补在世界地图上，而这些内容希望能够对他人有所帮助。</string>
+    <string name="item_manage">与其花精力去搞内部培训，有的企业甚至是这种模式：先雇一些技能不足的员工，然后寄希望于内部培训弥补其技能上的缺陷变成合格人才，当然薪资还是不变，于是有了低成本的解决方案……不如建立好内部人员晋升体系，以及员工能力模型。</string>
+</resources>
