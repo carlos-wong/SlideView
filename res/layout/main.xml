@@ -7,26 +7,50 @@
     <LinearLayout
         android:id="@+id/linearLayout01"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:orientation="vertical" >
 
-        <!-- <include
-            android:id="@+id/item_header"
-            layout="@layout/item_header" />
- -->
         <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <!--
+                 <ImageView
+                android:id="@+id/imageivew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/item_cloud" />
+            -->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <!--
+             <include
+            android:id="@+id/item_header"
+            layout="@layout/item_header" />
+            -->
+            <!--
+            <RelativeLayout
             android:id="@+id/linearLayout02"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:layout_gravity="bottom"
+            android:layout_height="32dp"
+            android:orientation="horizontal" >
+            -->
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/slideMenu"
                 android:layout_width="fill_parent"
                 android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
                 android:background="@drawable/top_bg" />
-
-            <!-- <RelativeLayout
+        </RelativeLayout>
+        <!--
+            <RelativeLayout
                 android:id="@+id/linearLayout03"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,9 +66,12 @@
                     android:paddingTop="10dp"
                     android:src="@drawable/previous_button"
                     android:visibility="invisible" />
-            </RelativeLayout> -->
+            </RelativeLayout>
+        -->
 
-            <!-- <RelativeLayout
+
+        <!--
+            <RelativeLayout
                 android:id="@+id/linearLayout04"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -72,9 +99,12 @@
 		            android:src="@drawable/menu_bg" />
                
 
-            </RelativeLayout> -->
+            </RelativeLayout>
+        -->
 
-            <ImageView
+
+        <!--
+                 <ImageView
                 android:id="@+id/ivMenuBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,15 +113,17 @@
                 android:layout_toRightOf="@+id/ivPreviousButton"
                 android:paddingTop="2dp"
                 android:src="@drawable/menu_bg"
-                android:visibility="gone" />
-        </RelativeLayout>
-
+                android:visibility="gone" />
+        -->
+        <!-- </RelativeLayout> -->
+        <!--
         <LinearLayout
             android:id="@+id/linearLayoutContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-        </LinearLayout>
+        </LinearLayout>
+        -->
     </LinearLayout>
 
 </FrameLayout>
